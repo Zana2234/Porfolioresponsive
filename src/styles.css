@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --default-font: Rubik, sans-serif;
+  --primary-color: #535a3b;
+  --secondary-color: #a7b99e;
+  --third-color: #cedcc3;
+  --forth-color: #eff7d3;
+}
+
+nav {
+  padding: 20px 0;
+  background-color: var(--primary-color);
+  color: white;
+  height: 13vh;
+}
+.navbar-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  height: 100%;
+}
+
+.navbar_left {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar_right {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 80%;
+  justify-content: flex-end;
+}
+
+.navbar_right li a {
+  text-decoration: none;
+  padding: 0px 20px;
+  color: white;
+}
+
